@@ -10,32 +10,32 @@ import org.springframework.stereotype.Service;
 @Service
 public class Calculator implements Operations {
 	
-	long c;
+	int c;
 	
 	@Override
-	public String add(long a, long b) {
+	public int add(int a, int b) {
 		c= a+b;
-		return "ADDITION: "+c;
+		return c;
 	}
 
 	@Override
-	public String sub(long a, long b) {
+	public int sub(int a, int b) {
 		c= a-b;
-		return "SUBTACTION: "+c;
+		return c;
 	}
 
 	@Override
-	public String mul(long a, long b) {
+	public int mul(int a, int b) {
 		
 		c= a*b;
-		return "MULTIPLCATION: "+c;
+		return c;
 	}
 
 	@Override
-	public String divide(long a, long b) {
+	public int divide(int a, int b) {
 		
 		c= a/b;
-		return "DIVISION: "+c;
+		return c;
 	}
 
 	

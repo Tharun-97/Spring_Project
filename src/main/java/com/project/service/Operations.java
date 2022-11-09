@@ -1,11 +1,11 @@
 package com.project.service;
 
 public interface Operations {
-	String add(long a, long b);
+	int add(int a, int b);
 
-	String sub(long a, long b);
+	int sub(int a, int b);
 
-	String mul(long a, long b);
+	int mul(int a, int b);
 
-	String divide(long a, long b);
+	int divide(int a, int b);
 }
